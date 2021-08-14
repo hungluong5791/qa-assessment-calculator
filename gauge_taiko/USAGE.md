@@ -33,6 +33,10 @@ If no browser profile is specified, tests will executed using the embedded Chrom
 
     https://www.online-calculator.com
 
+### Specifications
+Specifications can be found as a navigable HTML page under `./docs/html/index.html`
+
+Generated using [Gauge Spectacle](https://github.com/getgauge/spectacle)
 
 ### Execution
 
