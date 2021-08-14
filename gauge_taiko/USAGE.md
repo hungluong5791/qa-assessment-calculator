@@ -34,8 +34,6 @@ If no browser profile is specified, tests will executed using the embedded Chrom
     https://www.online-calculator.com
 
 
-### Specifications
-
 ### Execution
 
     gauge run specs
