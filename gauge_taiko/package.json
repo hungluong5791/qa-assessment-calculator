@@ -1,0 +1,19 @@
+{
+  "name": "qa-assessment-calculator",
+  "license": "MIT",
+  "scripts": {
+    "test": "gauge run specs"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "gauge-ts": "0.1.0",
+    "mathjs": "^9.4.4",
+    "taiko": "^1.2.7",
+    "yn": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/node": "^16.6.1",
+    "taiko-screencast": "^0.0.1"
+  }
+}

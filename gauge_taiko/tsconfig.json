@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "lib": [
+            "es2016",
+            "DOM"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "node_modules/taiko/types"
+        ],
+        "types": [
+            "node",
+            "taiko"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}

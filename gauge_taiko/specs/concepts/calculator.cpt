@@ -1,0 +1,6 @@
+# Open Calculator Fullscreen application
+* Open Application at endpoint "/full-screen-calculator"
+
+# Calculate the formula <formula>
+* Input the formula <formula>
+* Perform the calculation

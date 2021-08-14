@@ -1,0 +1,173 @@
+<article class='markdown-body'><meta charset="utf-8"><link rel="stylesheet" type="text/css" href="..\style.css"><h1>Addition</h1>
+<p>The Calculator should correctly perform addition operation</p>
+<p>tags: addition</p>
+<ul>
+<li>Open Calculator Fullscreen application</li>
+</ul>
+<h2>Addition between integers</h2>
+<p>The Calculator should correctly perform addition between integers, including zero and negative numbers</p>
+<p>tags: integer, smoke</p>
+<table>
+<thead>
+<tr>
+<th>formula</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1+1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2 + 3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1 + 10 + 100</td>
+<td>111</td>
+</tr>
+<tr>
+<td>999 + 10</td>
+<td>1009</td>
+</tr>
+<tr>
+<td>(-5) + 99 + 1 + (-10)</td>
+<td>85</td>
+</tr>
+<tr>
+<td>1 + 0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When User calculate the formula &lt;formula&gt;</li>
+<li>The Calculator result should be &lt;result&gt;</li>
+</ul>
+<h2>Addition between decimals</h2>
+<p>The Calculator should correctly perform addition between decimals, including negative numbers</p>
+<p>tags: decimals, smoke</p>
+<table>
+<thead>
+<tr>
+<th>formula</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.11 + 0.2</td>
+<td>0.31</td>
+</tr>
+<tr>
+<td>0.2 + 0.9</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>0.135 + 0.98</td>
+<td>1.115</td>
+</tr>
+<tr>
+<td>0.72 + 0.4 + (-0.12)</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When User calculate the formula &lt;formula&gt;</li>
+<li>The Calculator result should be &lt;result&gt;</li>
+</ul>
+<h2>Addition between integers and decimals</h2>
+<p>The Calculator should correctly perform addition between integers and decimals, including zero and negative numbers</p>
+<p>tags: integer, decimal</p>
+<table>
+<thead>
+<tr>
+<th>formula</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.11 + 2</td>
+<td>2.11</td>
+</tr>
+<tr>
+<td>92 + 0.9</td>
+<td>92.9</td>
+</tr>
+<tr>
+<td>10000 + 0.98 + 3 + 0</td>
+<td>10003.98</td>
+</tr>
+<tr>
+<td>1 + (-0.5) + (-3.14) + 3 + (-10)</td>
+<td>-9.64</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When User calculate the formula &lt;formula&gt;</li>
+<li>The Calculator result should be &lt;result&gt;</li>
+</ul>
+<h2>Addition result in exponential form</h2>
+<p>The Calculator should show Addition result in exponential form when the result is larger than the maximum display range
+i.e 1 000 000 000 and up</p>
+<p>tags: exponential, boundary</p>
+<table>
+<thead>
+<tr>
+<th>formula</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>999999999 + 1</td>
+<td>1e+9</td>
+</tr>
+<tr>
+<td>999999999 + 999999999</td>
+<td>2e+9</td>
+</tr>
+<tr>
+<td>(-1) + (-999999999)</td>
+<td>-1e+9</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When User calculate the formula &lt;formula&gt;</li>
+<li>The Calculator result should be &lt;result&gt;</li>
+</ul>
+<h2>Number can be added to itself</h2>
+<p>Partial Addition input should result in the operand being added to itself</p>
+<p>tags: partial-input</p>
+<table>
+<thead>
+<tr>
+<th>formula</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 +</td>
+<td>2</td>
+</tr>
+<tr>
+<td>-1 +</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>999999999 +</td>
+<td>2e+9</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When User calculate the formula &lt;formula&gt;</li>
+<li>The Calculator result should be &lt;result&gt;</li>
+</ul>
+<ul id="navigation"><center><li class="nav"><a href="..\index.html">=</a></li><li class="nav"><a href="concepts\calculator.html">></a></li></center></article>

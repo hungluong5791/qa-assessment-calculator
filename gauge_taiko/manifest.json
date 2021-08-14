@@ -1,0 +1,8 @@
+{
+  "Language": "ts",
+  "Plugins": [
+    "html-report",
+    "spectacle"
+  ],
+  "EnvironmentDir": ""
+}
